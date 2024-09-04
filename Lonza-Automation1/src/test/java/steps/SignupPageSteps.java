@@ -22,7 +22,7 @@ public class SignupPageSteps extends WebDriverActions {
 
     }
 
-
+//when case
     @When("User have click the signup options")
     public void user_have_click_the_signup_options() throws Exception {
 
