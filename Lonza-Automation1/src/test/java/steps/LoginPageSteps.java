@@ -18,7 +18,7 @@ public class LoginPageSteps extends WebDriverActions {
     @Then("User should verify the success message for user name and password and close the window")
     public void userShouldVerifyTheSuccessMessageForUserNameAndPasswordAndCloseTheWindow() {
 
-        String expectedValue = "My Contacts";
+        String expectedValue = "My Contacts: Title";
 
 
         String actualValue = getTitle();
